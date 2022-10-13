@@ -1,0 +1,141 @@
+* {
+  font-family: sans-serif;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.287);
+  position: fixed;
+  z-index: 999;
+}
+.logo {
+  font: bold;
+  font-size: 50px;
+  color: #fff;
+}
+.logo:hover {
+  transform: rotatey(360deg);
+  transition: 3s ease;
+}
+nav a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+a:hover {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.theater-img {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  filter: brightness(70%);
+}
+
+h1 {
+  font-size: 88px;
+  color: rgb(248, 248, 248);
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.april-text {
+  width: 700px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(83, 83, 83);
+  background-color: #f7f7f7;
+}
+.april {
+  margin-left: 15px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  justify-items: start;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 700px;
+}
+button {
+  background-color: orange;
+  color: #fff;
+  padding: 4px;
+  border: solid 1px rgb(149, 149, 149);
+}
+button:hover {
+  /* border: none; */
+  color: black;
+  background-color: rgb(208, 202, 191);
+  transition: 0.3s ease;
+}
+.img-2 {
+  width: 150px;
+  height: 150px;
+}
+
+.image,
+.texto {
+  width: 300px;
+}
+.image {
+  width: 100px;
+}
+.container-footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+.wrapper {
+  height: 200px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+.map {
+  width: 80%;
+  height: 80%;
+}
+.info,
+.Social,
+.Shows {
+  color: #fff;
+}
+.icon2 {
+  width: 40px;
+  height: 40px;
+  stroke: orange;
+}
+
+.Social a {
+  display: grid;
+  margin-bottom: 10px;
+}
+.hyper {
+  text-decoration: none;
+  color: orange;
+}
+.hyper:hover {
+  background: none;
+  color: orange;
+  text-decoration: underline;
+}
